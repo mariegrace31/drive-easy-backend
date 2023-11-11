@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 ruby '3.2.2'
 
+gem 'rack-cors'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1.1'
 
@@ -67,3 +69,7 @@ group :test do
 end
 
 gem 'rubocop', '>= 1.0', '< 2.0'
+
+gem "devise", "~> 4.9"
+
+gem "letter_opener", "~> 1.8"
