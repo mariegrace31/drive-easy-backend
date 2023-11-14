@@ -24,18 +24,18 @@ class Api::V1::ReservationsController < ApplicationController
 
   def serialize_reservations(reservations)
     reservations.as_json(
-      only: [:id, :city, :date],
+      only: %i[id city date],
       include: {
         car: {
-          only: [:id, :name, :model, :description, :img, :finance_fee, :total_amount, :duration],
+          only: %i[id name model description img finance_fee total_amount duration],
           include: {
             user: {
-              only: [:id, :name]
+              only: %i[id name]
             }
           }
         },
         user: {
-          only: [:id, :name]
+          only: %i[id name]
         }
       }
     )
