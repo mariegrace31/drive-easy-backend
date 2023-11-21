@@ -15,56 +15,56 @@ john_id = User.find_by(name: 'John').id
 anna_id = User.find_by(name: 'Anna').id
 
 Car.create(
-    name: 'Car 1',
-    model: 'Model A',
-    description: 'Description for Car 1',
-    img: 'https://th.bing.com/th/id/OIP.JyCzu_k2e9cAikGtcMW8iwHaE4?pid=ImgDet&rs=1',
-    finance_fee: 15000.50,
-    total_amount: 25000.75,
-    duration: 5,
-    user_id: john_id
-  )
+  name: 'Mercedes-Benz',
+  model: 'E-Class Cabriolet',
+  description: 'Mercedes-AMG E 53 4MATIC+ combined fuel consumption: 8.71 /100 km, combined CO2 emissions: 200 g/km',
+  img: 'https://www.mercedes-benz.co.in/content/india/en/passengercars/models/cabriolet-roadster/r232-23-1/overview/_jcr_content/root/responsivegrid/tabs/tabitem/highlight/slider/image_661524872.component.damq5.3372643566415.jpg/MANUFAKTUR_spectral_blue_magno.jpg',
+  finance_fee: 1365.12,
+  total_amount: 87500.00,
+  duration: 48,
+  user_id: john_id
+)
 
 Car.create(
-    name: 'Car 2',
-    model: 'Model B',
-    description: 'Description for Car 2',
-    img: 'https://th.bing.com/th/id/OIP.UhNPJRrJ6saKm1AmWYr7gwHaEK?pid=ImgDet&rs=1',
-    finance_fee: 18000.75,
-    total_amount: 28000.25,
-    duration: 7,
-    user_id: anna_id
-  )
+  name: 'Mercedes-Benz',
+  model: 'Mercedes-AMG Roadster',
+  description: 'Mercedes-AMG E 53 4MATIC+ combined fuel consumption: 8.71 /100 km, combined CO2 emissions: 200 g/km',
+  img: 'https://www.mercedes-benz.co.in/content/india/en/passengercars/models/cabriolet-roadster/a238-fl-22-2/overview/_jcr_content/root/responsivegrid/tabs_2147443577/tabitem/highlight/slider/image_1448322380.component.damq5.3382289293948.jpg/spectral_blue_magno.jpg',
+  finance_fee: 1365.12,
+  total_amount: 87500.00,
+  duration: 48,
+  user_id: anna_id
+)
 
 Car.create(
-    name: 'Car 3',
-    model: 'Model C',
-    description: 'Description for Car 3',
-    img: 'https://s3-eu-west-1.amazonaws.com/eurekar-v2/uploads/images/original/toyota-c-hr-4hires.jpg',
-    finance_fee: 20000.0,
-    total_amount: 30000.0,
-    duration: 4,
-    user_id: john_id
-  )
+  name: 'Mercedes-Benz',
+  model: 'A-Class Limousine',
+  description: 'Mercedes-AMG E 53 4MATIC+ combined fuel consumption: 8.71 /100 km, combined CO2 emissions: 200 g/km',
+  img: 'https://www.mercedes-benz.co.in/content/india/en/passengercars/models/coupe/x290-e-performance-22-2/overview/_jcr_content/root/responsivegrid/tabs/tabitem/simple_teaser/simple_teaser_item.component.damq6.3350875009220.jpg/mercedes-amg-gt-63-se-perf-x290-equipment-exterior-aerodynamics-package-764x573-11-2022.jpg',
+  finance_fee: 1365.12,
+  total_amount: 87500.00,
+  duration: 48,
+  user_id: john_id
+)
 
 Car.create(
-    name: 'Car 4',
-    model: 'Model D',
-    description: 'Description for Car 4',
-    img: 'https://th.bing.com/th/id/R.42456c3e900a437e3420ec3d22be30fb?rik=E7xBRTsu2aZkJQ&riu=http%3a%2f%2fimages.car.bauercdn.com%2fpagefiles%2f74108%2ftoyota_hybrids_01.jpg&ehk=kPp%2fqRrvNnPOA7U22hzZp10%2faX%2fg%2fPLuaeJZ91ZsoAo%3d&risl=&pid=ImgRaw&r=0',
-    finance_fee: 22000.50,
-    total_amount: 32000.75,
-    duration: 6,
-    user_id: anna_id
-  )
+  name: 'Mercedes-Benz',
+  model: 'EQS Limousine',
+  description: 'Mercedes-AMG E 53 4MATIC+ combined fuel consumption: 8.71 /100 km, combined CO2 emissions: 200 g/km',
+  img: 'https://www.mercedes-benz.co.in/content/india/en/passengercars/models/saloon/v297/overview/_jcr_content/root/responsivegrid/tabs/tabitem/hotspot_module/hotspot_simple_image.component.damq5.3338214080901.jpg/mercedes-eq-eqs-v297-exterior-hotspot-3302x1858-08-2022.jpg',
+  finance_fee: 1365.12,
+  total_amount: 87500.00,
+  duration: 48,
+  user_id: anna_id
+)
 
 Car.create(
-    name: 'Car 5',
-    model: 'Model E',
-    description: 'Description for Car 5',
-    img: 'https://cdn.carshowroom.com.au/media/21454403/gtr_1.jpg',
-    finance_fee: 19000.25,
-    total_amount: 29000.50,
-    duration: 8,
-    user_id: john_id
-  )
+  name: 'Mercedes-Benz',
+  model: 'A-Class Hatchback',
+  description: 'Mercedes-AMG E 53 4MATIC+ combined fuel consumption: 8.71 /100 km, combined CO2 emissions: 200 g/km',
+  img: 'https://www.mercedes-benz.co.in/content/india/en/passengercars/models/hatchback/w177-fl/amg/_jcr_content/root/responsivegrid/media_slider/media_slider_item/image.component.damq5.3369509478082.jpg/Final-2022-10-A-Class-AMG-35-Hatchback-W177-Launch-Still-18-TIFF-RGB.jpg',
+  finance_fee: 1365.12,
+  total_amount: 87500.00,
+  duration: 48,
+  user_id: john_id
+)
