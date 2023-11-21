@@ -1,0 +1,180 @@
+openapi: 3.0.3
+info:
+  title: Drive Easy API
+  version: v1
+paths:
+  /api/v1/login:
+    post:
+      summary: User Login
+      tags:
+        - Users
+      responses:
+        '200':
+          description: Success - User logged in
+        '401':
+          description: Unauthorized
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+              required:
+                - username
+                - password
+  /api/v1/register:
+    post:
+      summary: User Registration
+      tags:
+        - Users
+      responses:
+        '201':
+          description: Success - User registered
+        '422':
+          description: Unprocessable Entity
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+              required:
+                - username
+                - email
+                - password
+  /api/v1/cars:
+    get:
+      summary: List Cars
+      tags:
+        - Cars
+      responses:
+        '200':
+          description: Success - Cars listed
+        '401':
+          description: Unauthorized
+    post:
+      summary: Add a Car
+      tags:
+        - Cars
+      responses:
+        '201':
+          description: Success - Car added
+        '422':
+          description: Unprocessable Entity
+        '401':
+          description: Unauthorized
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                make:
+                  type: string
+                model:
+                  type: string
+                year:
+                  type: integer
+              required:
+                - make
+                - model
+                - year
+  /api/v1/cars/{id}:
+    get:
+      summary: Get Car Details
+      tags:
+        - Cars
+      parameters:
+        - name: id
+          in: path
+          description: Car ID
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Success - Car details retrieved
+        '401':
+          description: Unauthorized
+    delete:
+      summary: Delete a Car
+      tags:
+        - Cars
+      parameters:
+        - name: id
+          in: path
+          description: Car ID
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Success - Car deleted
+        '401':
+          description: Unauthorized
+  /api/v1/reservations:
+    get:
+      summary: List Reservations
+      tags:
+        - Reservations
+      responses:
+        '200':
+          description: Success - Reservations listed
+        '401':
+          description: Unauthorized
+    post:
+      summary: Make a Reservation
+      tags:
+        - Reservations
+      responses:
+        '201':
+          description: Success - Reservation created
+        '422':
+          description: Unprocessable Entity
+        '401':
+          description: Unauthorized
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                car_id:
+                  type: integer
+                user_id:
+                  type: integer
+                date:
+                  type: string
+                  format: date
+              required:
+                - car_id
+                - user_id
+                - date
+    delete:
+      summary: Cancel a Reservation
+      tags:
+        - Reservations
+      parameters:
+        - name: id
+          in: path
+          description: Reservation ID
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Success - Reservation canceled
+        '401':
+          description: Unauthorized
+servers:
+  - url: https://your-api-url.com/
