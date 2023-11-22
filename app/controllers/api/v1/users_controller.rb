@@ -8,7 +8,7 @@ class Api::V1::UsersController < ApplicationController
     if user.nil?
       render json: { status: 'error', message: 'User does not exist. Sign up to continue.' }, status: 422
     else
-      render status: 200, json: { message: 'Login success', status: 200, id: user.id }
+      render status: 200, json: { message: 'Login success', status: 200, id: user.id, name: user.name }
     end
   end
 
