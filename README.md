@@ -3,7 +3,7 @@
 <div align="center">
 
 #  **DRIVE EASY BACKEND API**
-The DRIVE EASY BACKEND API was used to fecth our data in the DRIVE EASY [frontend](https://github.com/Chandan-devs-tech/drive-easy-frontend)app.
+The DRIVE EASY BACKEND API was used to fecth our data in the DRIVE EASY [frontend](https://github.com/Chandan-devs-tech/drive-easy-frontend) app.
 ---
   <br/>
   <br/>
