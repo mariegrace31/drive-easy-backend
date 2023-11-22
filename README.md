@@ -90,6 +90,15 @@ Install all dependencies:
 ```sh
     bundle install
 ```
+```
+rails db:create
+```
+```
+rails db:migrate
+```
+```
+rails db:seed
+```
 Run the following code to fix possible  linter errors:
 ```
 rubocop -A
