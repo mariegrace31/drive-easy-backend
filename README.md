@@ -2,8 +2,8 @@
 
 <div align="center">
 
-#  **DRIVE EASY APP**
-The DRIVE EASY APP is a web application that display a list of cars. It allows you to add a car, to delete a car and to reserve a car.
+#  **DRIVE EASY BACKEND API**
+The DRIVE EASY BACKEND API was used to fecth our data in the DRIVE EASY [frontend](https://github.com/Chandan-devs-tech/drive-easy-frontend)app.
 ---
   <br/>
   <br/>
