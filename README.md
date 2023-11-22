@@ -14,10 +14,11 @@ Drive easy frontend link (https://github.com/Chandan-devs-tech/drive-easy-fronte
 
 <!-- TABLE OF CONTENTS -->
 ## <b>Table of Contents 📗
-- [**DRIVE EASY APP** ](#drive-easy-app-)
-  - [The DRIVE EASY APP is a web application that display a list of cars. It allows you to add a car, to delete a car and to reserve a car.](#the-drive-easy-app-is-a-web-application-that-display-a-list-of-cars-it-allows-you-to-add-a-car-to-delete-a-car-and-to-reserve-a-car)
+- [**DRIVE EASY BACKEND API**](#drive-easy-backend-api)
+  - [Drive easy frontend link (https://github.com/Chandan-devs-tech/drive-easy-frontend)](#drive-easy-frontend-link-httpsgithubcomchandan-devs-techdrive-easy-frontend)
   - [Table of Contents 📗](#table-of-contents-)
-  - [**Built With 🛠**](#built-with-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
     - [**Key Features 🏷️** ](#key-features-️-)
   - [**Prerequisites 🧱**](#prerequisites-)
   - [**Setup ⚙️**](#setup-️)
@@ -113,6 +114,13 @@ Open the page in the browser
 ```sh
 $ rails s
 ```
+<!-- Test -->
+```
+### Test
+To run tests, run the following command:
+  rspec
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
