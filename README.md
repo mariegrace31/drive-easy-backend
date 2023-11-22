@@ -73,7 +73,7 @@ Clone this repository:<br>
 ```
 Navigate to the folder
 ```
-cd drive-easy-frontend
+cd drive-easy-backend
 ```
 Checkout the branch
 ```
