@@ -88,7 +88,7 @@ git checkout dev
 Install all dependencies:
 
 ```sh
-    bundle install
+bundle install
 ```
 ```
 rails db:create
