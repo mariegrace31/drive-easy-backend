@@ -1,0 +1,17 @@
+databases:
+  - name: drive-easy
+    databaseName: drive_easy
+    user: drive_easy_user
+services:
+  - type: web
+    name: drive-easy
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: drive-easy
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
