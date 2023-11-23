@@ -20,6 +20,8 @@ Drive easy frontend link (https://github.com/Chandan-devs-tech/drive-easy-fronte
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [**Key Features 🏷️** ](#key-features-️-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [Kanban Board ](#kanban-board-)
   - [**Prerequisites 🧱**](#prerequisites-)
   - [**Setup ⚙️**](#setup-️)
   - [\*\* 🏗️\*\*](#-️)
@@ -51,6 +53,24 @@ The Drive Easy App displays cars that have been fetched from our API, and allows
 <br>
 
 ---
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://drive-easy-frontend.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Kanban Board -->
+
+## Kanban Board <a name="kanban-board"></a>
+
+- [Kanban Board Link](https://github.com/users/Chandan-devs-tech/projects/7/views/1)
+- [Screenshot of the initial state of our Kanban board](https://github.com/Chandan-devs-tech/drive-easy-backend/issues/11)
+- We are group of four members. You can see the names in the authors section.
+
+
 <!-- PREREQUISITIES -->
 ## **Prerequisites 🧱**<a name="prerequisites"></a>
 
