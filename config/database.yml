@@ -83,6 +83,4 @@ test:
 #
 production:
   <<: *default
-  database: drive_easy_backend_production
-  username: drive_easy_backend
-  password: <%= ENV["DRIVE_EASY_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
