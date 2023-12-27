@@ -3,7 +3,7 @@
 <div align="center">
 
 #  **DRIVE EASY BACKEND API**
-The DRIVE EASY BACKEND API was used to fecth our data in the DRIVE EASY frontend app.
+The DRIVE EASY BACKEND API fetched our data in the DRIVE EASY frontend app.
 
 Drive easy frontend link (https://github.com/Chandan-devs-tech/drive-easy-frontend)
 ---
@@ -47,7 +47,7 @@ Drive easy frontend link (https://github.com/Chandan-devs-tech/drive-easy-fronte
 <!-- KEY FEATURES -->
 ### **Key Features 🏷️** <a name="key-features"></a>
 
-The Drive Easy App displays cars that have been fetched from our API, and allows to add, delete and reserve a car.
+The Drive Easy App displays cars that have been fetched from our API and allows you to add, delete, and reserve a car.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <br>
@@ -68,13 +68,13 @@ The Drive Easy App displays cars that have been fetched from our API, and allows
 
 - [Kanban Board Link](https://github.com/users/Chandan-devs-tech/projects/7/views/1)
 - [Screenshot of the initial state of our Kanban board](https://github.com/Chandan-devs-tech/drive-easy-backend/issues/11)
-- We are group of four members. You can see the names in the authors section.
+- We are a group of four members. You can see the names in the author's section.
 
 
 <!-- PREREQUISITIES -->
 ## **Prerequisites 🧱**<a name="prerequisites"></a>
 
-In order to run this project you need:
+To run this project you need:
 
 - A GitHub account
 - Node JS
